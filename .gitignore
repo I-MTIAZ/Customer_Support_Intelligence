@@ -1,0 +1,33 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Frontend
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/
+datasets/
+*.csv
+*.parquet
+
+# Other
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep research notebooks local
+/notebooks/
